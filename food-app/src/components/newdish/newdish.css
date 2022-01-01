@@ -1,0 +1,49 @@
+#newdish-main {
+  background-image: url("https://www.businesslist.pk/img/cats/restaurants.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 93.2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#newdish-form {
+  background-color: black;
+  border: 2px solid orange;
+  border-radius: 10px;
+  height: 90vh;
+  color: orange;
+  padding: 3vw;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#newdish-form .fields {
+  border: 2px solid orange;
+  border-radius: 10px;
+  outline: red;
+  background-color: black;
+  margin-top: 1vh;
+  height: 45px;
+  width: 20vw;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+#newdish-form button {
+  background-color: orange;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+#newdish-form button:hover {
+  color: orange;
+  background-color: inherit;
+  transform: scale(1.5, 1.5);
+}

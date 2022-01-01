@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  user-select: none;
+}
+#login-main {
+  background-image: url("https://www.sciencenewsforstudents.org/wp-content/uploads/2020/11/1030_teen_brain_food_choices.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+#login-parent {
+  display: flex;
+  flex-direction: row;
+  height: 92vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  width: 80vw;
+  border-radius: 20px;
+  border: 2px solid orange;
+  opacity: 80%;
+}
+#login-form {
+  border-left: 2px solid orange;
+  height: inherit;
+  padding: 3vw;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#login-form h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#login-form .fields {
+  border: 2px solid orange;
+  border-radius: 10px;
+  outline: red;
+  background-color: black;
+  margin-top: 1vh;
+  height: 45px;
+  width: 20vw;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+#login-form button {
+  background-color: orange;
+  color: white;
+  font-weight: 600;
+  border: 2px solid inherit;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+#login-form button:hover {
+  color: orange;
+  background-color: inherit;
+  transform: scale(1.5, 1.5);
+}
+#login-form a {
+  color: white;
+  font-weight: 600;
+}
+#login-form a:hover {
+  color: orange;
+}
+#login-form label {
+  font-weight: 600;
+}
+#login-pic {
+  background-image: url("https://miro.medium.com/max/500/0*RHHxKod5FoRBI8Fk.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: inherit;
+  width: 60%;
+}
+#login-popup {
+  border-radius: 20px;
+  font-size: large;
+  font-weight: 600;
+  border: 2px solid red;
+  color: red;
+  background-color: black;
+  height: 40vh;
+  width: 40vw;
+  position: absolute;
+  top: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 2000;
+}
+#radio {
+  height: 15px !important;
+  width: 3vw !important;
+  padding: none;
+}

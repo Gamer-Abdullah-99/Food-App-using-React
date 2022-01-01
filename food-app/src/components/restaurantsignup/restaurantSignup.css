@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  user-select: none;
+}
+#res-signup-main {
+  background-image: url("https://www.sciencenewsforstudents.org/wp-content/uploads/2020/11/1030_teen_brain_food_choices.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+#res-signup-parent {
+  display: flex;
+  flex-direction: row;
+  height: 82vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  width: 80vw;
+  border-radius: 20px;
+  border: 2px solid orange;
+  opacity: 80%;
+}
+#res-signup-form {
+  border-right: 2px solid orange;
+  height: inherit;
+  padding: 3vw;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#res-signup-form h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#res-signup-form .fields {
+  border: 2px solid orange;
+  border-radius: 10px;
+  outline: red;
+  background-color: black;
+  margin-top: 1vh;
+  height: 45px;
+  width: 20vw;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+#res-signup-form button {
+  background-color: orange;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#res-signup-form button:hover {
+  color: orange;
+  background-color: inherit;
+}
+#res-signup-form a {
+  color: white;
+  font-weight: 600;
+}
+#res-signup-form a:hover {
+  color: orange;
+}
+#res-signup-form label {
+  font-weight: 600;
+}
+#res-signup-pic {
+  background-image: url("https://miro.medium.com/max/500/0*RHHxKod5FoRBI8Fk.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: inherit;
+  width: 60%;
+}

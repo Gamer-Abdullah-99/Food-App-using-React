@@ -1,0 +1,9 @@
+#Navbar #button {
+  border: none;
+  background-color: inherit;
+}
+#Navbar #button:hover {
+  background-color: inherit;
+  border: none;
+  color: red;
+}
